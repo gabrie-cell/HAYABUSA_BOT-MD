@@ -47,7 +47,7 @@ let tags = {
 const defaultMenu = {
   before:  `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
 
-🌟 Hola *%name* soy *Aamon* 🌟
+🌟 Hola *%name* soy *HAYABUSA* 🌟
 
 ╔━━━━━ *⊱𝐈𝐍𝐅𝐎 - 𝐁𝐎𝐓⊰*
 ✦  👤 *Cliente:* %name
@@ -180,7 +180,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       },
     ];
 
-    let img = 'https://qu.ax/fPklC.jpg';
+    let img = 'https://files.catbox.moe/3z7wet.jpg';
     await m.react('🌪️');
 
     await conn.sendMessage(
