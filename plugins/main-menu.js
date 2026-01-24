@@ -22,11 +22,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     let dia = fechaObj.toLocaleDateString('es-PE', { weekday: 'long', timeZone: 'America/Lima' })
     
     let videos = [
-        'https://cdn.yupra.my.id/yp/h4s6aynd.mp4',
-        'https://cdn.yupra.my.id/yp/6ccechec.mp4',
-        'https://cdn.yupra.my.id/yp/pvv17ywo.mp4',
-        'https://cdn.yupra.my.id/yp/wbcrmb93.mp4',
-        'https://cdn.yupra.my.id/yp/tronrmvn.mp4'
+        'https://files.catbox.moe/g2c75j.mp4',
+        'https://files.catbox.moe/g2c75j.mp4',
+        'https://files.catbox.moe/3b8r3h.mp4',
+        'https://files.catbox.moe/3b8r3h.mp4',
+        'https://files.catbox.moe/g2c75j.mp4'
     ]
     let video = videos[Math.floor(Math.random() * videos.length)]
 
