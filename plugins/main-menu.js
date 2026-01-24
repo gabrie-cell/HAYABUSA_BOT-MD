@@ -62,7 +62,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let menuText = `
 🕸️｡･:*˚:✨˚:*･｡🕸️  
-     *HAYABUSA* - ʙᴏᴛ  🌿 
+     ꧁༺HAYABUSA-MD༒༻꧂  🌿 
 ｡･:*˚:🕯️˚:*･｡
 ⊱ ────── {.⋅ 🕷️ ⋅.} ────── ⊰
 
