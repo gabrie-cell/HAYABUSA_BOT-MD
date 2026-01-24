@@ -30,10 +30,10 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = "🍏 𝗚𝗼𝗷𝗼𝘽𝙤𝙩-𝗠𝗗 🕸️"
-global.textbot = "gσᴊσ вσт ν3 • мα∂є ву ¢αяℓσѕ.яν"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
-global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
+global.botname = "🍏 *HAYABUSA-MD* 🕸️"
+global.textbot = "hayabusa вσт ν1 • мα∂є ву Gabrie-ux.яν"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Gabrie-ux.𝚁𝚅"
+global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ Gabriel.ux"
 global.etiqueta = "✫.ƚԋҽ ƈαɾʅσʂ.ɾʋ  ⊹꙰ "
 global.currency = "ᴅᴏʟᴀʀᴇs💶"
 global.banner = "https://files.catbox.moe/svaupe.jpg"
