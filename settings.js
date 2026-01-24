@@ -13,7 +13,7 @@ global.botNumber = "" //Ejemplo: 573218138672
 
 global.owner = [
 "51941658192",
-""
+"5491162424280",
 ]
 
 global.suittag = ["51941658192"] 
