@@ -123,7 +123,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
 handler.help = ['music <url|nombre>']
-handler.tags = ['dl']
+handler.tags = ['descargas']
 handler.command = ['music']
 
 export default handler
