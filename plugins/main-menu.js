@@ -182,7 +182,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       },
       {
         buttonId: `${_p}code`,
-        buttonText: { displayText: "💻 Code" },
+        buttonText: { displayText: ". Code" },
         type: 1,
       },
     ];
