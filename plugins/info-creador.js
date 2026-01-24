@@ -11,7 +11,7 @@ const handler = async (m, { conn }) => {
   const correo = 'doxeosjr@gmail.com';
   const web = 'https://CarlosRv.vercel.app/';
   const direccion = 'Tokyo, Japón 🇯🇵';
-  const fotoPerfil = 'https://files.catbox.moe/2vwn2d.jpg';
+  const fotoPerfil = 'https://files.catbox.moe/hlhe7i.jpg';
 
   const vcard = `
 BEGIN:VCARD
