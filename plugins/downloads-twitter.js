@@ -26,7 +26,7 @@ return conn.reply(m.chat, `⚠︎ Se ha producido un problema.\n> Usa *${usedPre
 
 handler.command = ["x", "twitter", "xdl"]
 handler.help = ["twitter"]
-handler.tags = ["download"]
+handler.tags = ["descargas"]
 handler.group = true
 
 export default handler
