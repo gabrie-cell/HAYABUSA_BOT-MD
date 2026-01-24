@@ -4,7 +4,7 @@ import { proto } from '@whiskeysockets/baileys';
 import PhoneNumber from 'awesome-phonenumber';
 
 const handler = async (m, { conn }) => {
-  const name = '.HAYABUSA-MD | ᥆𝖿𝖿іᥴіᥲᥣ';
+  const name = 'HAYABUSA-MD | ᥆𝖿𝖿іᥴіᥲᥣ';
   const numCreador = '51941658192';
   const empresa = 'ɢᴏᴊᴏ ʙᴏᴛ ɪɴɪᴄ.';
   const about = '💫 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐𝒓 𝒐𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝒅𝒆 HAYABUSA-MD';
