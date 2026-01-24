@@ -55,50 +55,50 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     const secciones = Object.entries(grupos).map(([tag, cmds]) => {
       const emoji = emojis[tag] || '⭐'
-      return `╭━━🌿〔 ${emoji} ${tag.toUpperCase()} 〕🌿━━⬣\n`
-     + cmds.map(cmd => `┃ 💐 ${cmd}`).join('\n') 
-     + `\n╰━━🕸️〔 👁️ 〕🕸️━━⬣`
+      return `╭━━🥷🏻〔 ${emoji} ${tag.toUpperCase()} 〕🥷🏻━━⬣\n`
+     + cmds.map(cmd => `┃ 🥷🏻 ${cmd}`).join('\n') 
+     + `\n╰━━🕸️〔 🥷🏻 〕🕸️━━⬣`
     }).join('\n\n')
 
     let menuText = `
 🕸️｡･:*˚:✨˚:*･｡🕸️  
 *꧁༺HAYABUSA-MD༒༻꧂*
-｡･:*˚:🕯️˚:*･｡
+｡･:*˚:✨˚:*･｡
 ⊱ ────── {.⋅ 🕷️ ⋅.} ────── ⊰
 
-💀 ${ucapan()} @${userId.split('@')[0]} 🦇
+🥷🏻 ${ucapan()} @${userId.split('@')[0]} 🦇
 
-╭── 🌿「 *ɪɴꜰᴏ ᴜꜱᴇʀ* 」──
+╭── 🥷🏻「 *ɪɴꜰᴏ ᴜꜱᴇʀ* 」──
 │
 │ ✨ ᴜsᴇʀ: *${name}*
 │ ✨ ɴɪᴠᴇʟ: *${level}*
 │ ✨ ᴇxᴘ ᴛᴏᴛᴀʟ: *${exp}*
 │ ✨ ʀᴀɴɢᴏ: *${role}*
-╰─────────────────💐
+╰─────────────────🥷🏻
 
 ╭── 🦴「 *ɪɴꜰᴏ ʙᴏᴛ* 」──
 │
 │ 🕸️ 👑 ᴏᴡɴᴇʀ: *wa.me/${suittag}*
-│ 🕸️ 🤖 ʙᴏᴛ: ${(conn.user.jid == global.conn.user.jid ? '🌑 ʙᴏᴛ ᴏꜰɪᴄɪᴀʟ' : '🕯️ ꜱᴜʙ ʙᴏᴛ')}
+│ 🕸️ 🤖 ʙᴏᴛ: ${(conn.user.jid == global.conn.user.jid ? '🪴 ʙᴏᴛ ᴏꜰɪᴄɪᴀʟ' : '🥷🏻 ꜱᴜʙ ʙᴏᴛ')}
 │ 🕸️ 📜 ᴄᴏᴍᴀɴᴅᴏs: *${totalCommands}*
 │ 🕸️ ☠️ ᴜsᴇʀs ᴛᴏᴛᴀʟᴇs: *${totalreg}*
 │ 🕸️ ⏳ ʀᴜɴᴛɪᴍᴇ: *${uptime}*
 ╰─────────────────🦴
 
-╭── 👁️「 *ᴛɪᴇᴍᴘᴏ* 」──
+╭── 🪴「 ᴛɪᴇᴍᴘᴏ 」──
 │
-│ 🎃 ⚡ ʜᴏʀᴀ ᴘᴇʀᴜ: *${hora}*
-│ 🎃 🕷️ ғᴇᴄʜᴀ: *${fecha}*
-│ 🎃 🦇 ᴅɪᴀ: *${dia}*
-╰─────────────────👻
+│ 🪴 ⚡ ʜᴏʀᴀ ᴘᴇʀᴜ: *${hora}*
+│ 🪴 🕷️ ғᴇᴄʜᴀ: *${fecha}*
+│ 🪴 🦇 ᴅɪᴀ: *${dia}*
+╰─────────────────🪴
 
-🎃 𝕳𝖆𝖕𝖕𝖞 𝕳𝖆𝖑𝖑𝖔𝖜𝖊𝖊𝖓 👻  
-🕸️ ¡Que los comandos te acompañen en la oscuridad! 🕯️
+🪴 ᬊ᭄ঔHAYABUSA-MDᬊ᭄ 🪴  
+🕸️ ¡Que los comandos te acompañen en los Campos de batalla! 🥷🏻
 
 ${secciones}
 `.trim()
 
- await m.react('🎃')
+ await m.react('🪴')
 await conn.sendMessage(m.chat, { video: { url: video }, caption: menuText, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: botname, body: dev, thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 
