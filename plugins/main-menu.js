@@ -34,7 +34,7 @@ let tags = {
 //  'logo': 'MAKER',
   'nable': '🎛️ ON / OFF 🔌', 
   'premium': '💎 PREMIUM 👑',
-  'downloader': '📥 DOWNLOAD 📤',
+  'descargas': '📥 DOWNLOAD 📤',
   'tools': '🔧 TOOLS 🛠️',
   'fun': '🎉 FUN 🎊',
   'nsfw': '🔞 NSFW 📛', 
