@@ -107,7 +107,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
 handler.help = ["spotify"]
-handler.tags = ["download"]
+handler.tags = ["descargas"]
 handler.command = ["spotify", "splay"]
 handler.group = true
 
