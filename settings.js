@@ -32,7 +32,7 @@ global.yukiJadibts = true
 
 global.botname = "🍏 HAYABUSA-MD 🕸️"
 global.textbot = "hayabusa вσт ν1 • мα∂є ву Gabrie-ux.яν"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Gabrie-ux.𝚁𝚅"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ★彡[༺★᭄ꦿ᭄ꦿɢαвяιє-υχ★᭄ꦿ᭄ꦿ]彡★"
 global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ Gabriel.ux"
 global.etiqueta = "✫.ƚԋҽ ƈαɾʅσʂ.ɾʋ  ⊹꙰ "
 global.currency = "ᴅᴏʟᴀʀᴇs💶"
