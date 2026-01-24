@@ -37,7 +37,7 @@ global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ Gabriel.ux"
 global.etiqueta = "✫.ƚԋҽ ƈαɾʅσʂ.ɾʋ  ⊹꙰ "
 global.currency = "ᴅᴏʟᴀʀᴇs💶"
 global.banner = "https://files.catbox.moe/svaupe.jpg"
-global.icono = "https://files.catbox.moe/e6br3k.jpg"
+global.icono = "https://files.catbox.moe/7lwdza.jpg"
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
