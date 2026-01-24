@@ -48,6 +48,8 @@ const defaultMenu = {
   before:  `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
 
 🌟 Hola *%name* soy *HAYABUSA* 🌟
+`importante`| este bot puede algunas veces fallar por eso usa /report
+         GABRIEL-UX
 
 ╔━━━━━ *⊱𝐈𝐍𝐅𝐎 - 𝐁𝐎𝐓⊰*
 ✦  👤 *Cliente:* %name
