@@ -30,7 +30,7 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = "🍏 HAYABUSA-MD 🕸️"
+global.botname = "🥷 ঔHAYABUSA-MDᬊ᭄ 🥷"
 global.textbot = "hayabusa вσт ν1 • мα∂є ву Gabrie-ux.яν"
 global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ★彡[༺★᭄ꦿ᭄ꦿɢαвяιє-υχ★᭄ꦿ᭄ꦿ]彡★"
 global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ Gabriel.ux"
