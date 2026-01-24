@@ -6,7 +6,7 @@ export async function before(m, { conn }) {
   const usedPrefix = global.prefix.exec(m.text)[0];
   const command = m.text.slice(usedPrefix.length).trim().split(' ')[0].toLowerCase();
 
-  const thumbRes = await fetch("https://files.catbox.moe/e6br3k.jpg");
+  const thumbRes = await fetch("https://files.catbox.moe/549ros.jpg");
   const thumbBuffer = await thumbRes.buffer();
 
   const fkontak = {
@@ -18,7 +18,7 @@ export async function before(m, { conn }) {
     },
     message: {
       locationMessage: {
-        name: `GojoBot-MD`,
+        name: `ᬊ᭄ঔHAYABUSA-MDᬊ᭄`,
         jpegThumbnail: thumbBuffer
       }
     },
@@ -40,7 +40,7 @@ export async function before(m, { conn }) {
     let user = global.db.data.users[m.sender];
 
     if (chat?.isBanned) {
-      const avisoDesactivado = `╭─── GojoBot-MD ───╮
+      const avisoDesactivado = `╭─── HayabusaBot-MD ───╮
 │ ⚙️ El bot está *desactivado* en este grupo.
 │ 🕓 Espera a que un *admin* lo active.
 │ 💡 Usa: *${usedPrefix}bot on*
@@ -51,9 +51,9 @@ export async function before(m, { conn }) {
         mentions: [m.sender],
         contextInfo: {
           externalAdReply: {
-            title: 'GojoBot-MD',
-            body: '© Powered by Carlos.rv',
-            thumbnailUrl: 'https://files.catbox.moe/svaupe.jpg',
+            title: 'ᬊ᭄ঔHAYABUSA-MDᬊ᭄',
+            body: '© Powered by Gabrie-ux',
+            thumbnailUrl: 'https://files.catbox.moe/549ros.jpg',
             sourceUrl: 'https://github.com/Carlos13ra',
             mediaType: 1,
             renderLargerThumbnail: true
@@ -78,15 +78,15 @@ export async function before(m, { conn }) {
   ];
 
   const texto = mensajesNoEncontrado[Math.floor(Math.random() * mensajesNoEncontrado.length)];
-  const thumb = 'https://files.catbox.moe/e6br3k.jpg';
+  const thumb = 'https://files.catbox.moe/549ros.jpg';
 
   await conn.sendMessage(m.chat, {
     text: texto,
     mentions: [m.sender],
     contextInfo: {
       externalAdReply: {
-        title: 'GojoBot-MD',
-        body: '© Powered by Carlos.rv',
+        title: 'ᬊ᭄ঔHAYABUSA-MDᬊ᭄',
+        body: '© Powered by Gabrie-ux',
         thumbnailUrl: thumb,
         sourceUrl: 'https://instagram.com',
         mediaType: 1,
