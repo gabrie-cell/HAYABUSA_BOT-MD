@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 🥷🏻 ${ucapan()} @${userId.split('@')[0]} 🦇
 
-╭── 🥷🏻「 *ɪɴꜰᴏ ᴜꜱᴇʀ* 」──
+╭── 🥷🏻「 ɪɴꜰᴏ ᴜꜱᴇʀ 」──
 │
 │ ✨ ᴜsᴇʀ: *${name}*
 │ ✨ ɴɪᴠᴇʟ: *${level}*
@@ -76,7 +76,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 │ ✨ ʀᴀɴɢᴏ: *${role}*
 ╰─────────────────🥷🏻
 
-╭── 🦴「 *ɪɴꜰᴏ ʙᴏᴛ* 」──
+╭── 🦴「 ɪɴꜰᴏ ʙᴏᴛ 」──
 │
 │ 🕸️ 👑 ᴏᴡɴᴇʀ: *wa.me/${suittag}*
 │ 🕸️ 🤖 ʙᴏᴛ: ${(conn.user.jid == global.conn.user.jid ? '🪴 ʙᴏᴛ ᴏꜰɪᴄɪᴀʟ' : '🥷🏻 ꜱᴜʙ ʙᴏᴛ')}
