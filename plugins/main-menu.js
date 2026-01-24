@@ -178,6 +178,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
         buttonText: { displayText: "🏓 Ping" },
         type: 1,
       },
+      {
+        buttonId: `${_p}code`,
+        buttonText: { displayText: "💻 Code" },
+        type: 1,
+      },
     ];
 
     let img = 'https://files.catbox.moe/3z7wet.jpg';
