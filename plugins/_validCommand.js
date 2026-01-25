@@ -40,7 +40,7 @@ export async function before(m, { conn }) {
     let user = global.db.data.users[m.sender];
 
     if (chat?.isBanned) {
-      const avisoDesactivado = `╭─── HayabusaBot-MD ───╮
+      const avisoDesactivado = `╭─── ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤ ───╮
 │ ⚙️ El bot está *desactivado* en este grupo.
 │ 🕓 Espera a que un *admin* lo active.
 │ 💡 Usa: *${usedPrefix}bot on*
