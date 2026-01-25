@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     'grupo': 'ᴍᴇɴᴜ ɢʀᴜᴘᴏ',
     'ai': 'ᴍᴇɴᴜ ᴀɪ',
     'game': 'ᴍᴇɴᴜ ɢᴀᴍᴇ',
-    'jadibot': 'ᴍᴇɴᴜ ᴊᴀᴅɪʙᴏᴛ',
+    'serbot': 'ᴍᴇɴᴜ ᴊᴀᴅɪʙᴏᴛ',
     'main': 'ᴍᴇɴᴜ ᴍᴀɪɴ',
     'nable': 'ᴍᴇɴᴜ ᴏɴ / ᴏғғ',
     'nsfw': 'ᴍᴇɴᴜ ɴsғᴡ',
