@@ -29,13 +29,11 @@ let tags = {
   'sticker': '💟 STICKER 🏷️',
   'img': '🖼️ IMAGE 🎇',
   'group': '👥 GROUPS 📢',
-  'nable': '🎛️ ON / OFF 🔌', 
-  'premium': '💎 PREMIUM 👑',
+  'nable': '🎛️ ON / OFF 🔌',
   'downloader': '📥 DOWNLOAD 📤',
   'tools': '🔧 TOOLS 🛠️',
   'fun': '🎉 FUN 🎊',
-  'nsfw': '🔞 NSFW 📛', 
-  'cmd': '🧮 DATABASE 🖥️',
+  'nsfw': '🔞 NSFW 📛',
   'owner': '👤 OWNER 👁️',
 };
 
