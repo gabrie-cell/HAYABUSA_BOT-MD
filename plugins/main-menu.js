@@ -22,7 +22,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     'sticker': 'ᴍᴇɴᴜ sᴛɪᴄᴋᴇʀ',
     'tools': 'ᴍᴇɴᴜ ᴛᴏᴏʟs',
     'rpg': 'MENU RPG',
-    'gacha': 'MENU GACHA'
+    'gacha': 'MENU GACHA',
+    'rg': 'MENU RG'
   }
 
   // 📑 Estilos
