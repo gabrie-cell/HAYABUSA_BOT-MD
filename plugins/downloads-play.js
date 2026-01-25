@@ -43,7 +43,7 @@ return conn.reply(m.chat, typeof e === 'string' ? e : '⚠︎ Se ha producido un
 }}
 
 handler.command = handler.help = ['play', 'mp3', 'play2', 'mp4']
-handler.tags = ['download']
+handler.tags = ['downloader']
 handler.group = true
 
 export default handler
