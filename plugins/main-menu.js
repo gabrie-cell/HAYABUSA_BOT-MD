@@ -27,7 +27,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let header = '*– %category*'
   let body = '│  ◦ %cmd'
   let footer = '└––'
-  let after = `🥷 ঔHAYABUSA-MDᬊ᭄ - Tu asistente anime favorito`
+  let after = `🪴 ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤ - Tu asistente anime favorito`
 
   let user = global.db.data.users[m.sender]
   let nombre = await conn.getName(m.sender)
@@ -46,7 +46,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   let infoUser = `
 ʜᴏʟᴀ, ${nombre}
-ꜱᴏʏ 🥷 ঔHAYABUSA-MDᬊ᭄🥷🏻, ʟɪꜱᴛᴏ ᴘᴀʀᴀ ᴀʏᴜᴅᴀʀᴛᴇ
+ꜱᴏʏ 🪴 ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤🪴, ʟɪꜱᴛᴏ ᴘᴀʀᴀ ᴀʏᴜᴅᴀʀᴛᴇ
 
 *乂 ɪɴꜰᴏ ᴅᴇʟ ᴜꜱᴜᴀʀɪᴏ*
 ┌  ◦ ᴇꜱᴛᴀᴅᴏ: ᴜꜱᴜᴀʀɪᴏ
@@ -93,7 +93,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       message: {
         interactiveMessage: {
           body: { text: finalMenu },
-          footer: { text: "🥷 ঔHAYABUSA-MDᬊ᭄🥷🏻" },
+          footer: { text: "🪴 .ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤🪴" },
           header: {
             hasMediaAttachment: true,
             imageMessage: media.imageMessage
