@@ -23,7 +23,6 @@ let Styles = (text, style = 1) => {
 let tags = {
   'anime': '🧧 ANIME 🎐',
   'main': '❗ INFO ❕',
-  'search': '🔎 SEARCH 🔍',
   'game': '🕹️ GAME 🎮',
   'serbot': '⚙️ SUB BOTS 🤖',
   'rpg': '🌐 RPG 🥇',
