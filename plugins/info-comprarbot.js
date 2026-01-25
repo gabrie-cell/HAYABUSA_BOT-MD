@@ -9,10 +9,10 @@ global.ComprarBot = `
 *👋🏻 Hola, te presento al bot mas lindo de Whatsapp.*
 
   ᰰ᷒☕᪤ ᥣіᥒk ძᥱ ⍴rᥙ፝֟ᥱ͟ᑲᥲs ::
-https://chat.whatsapp.com/BiMD1YYaFox8wqYyEBx0so
+https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q
 
   ᰰ᷒☃️᪤ ᥴrᥱᥲ֟፝ძ͟᥆r ::
-_wa.me//51927238856_
+_wa.me//51941658 192_
 
 ·˚ ༘₊· ͟͟͞͞꒰𝐌𝐄𝐓𝐎𝐃𝐎𝐒 𝐃 𝐏𝐀𝐆𝐎 🛍
 _- Mercado pago_
