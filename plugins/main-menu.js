@@ -27,7 +27,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let header = '*– %category*'
   let body = '│  ◦ %cmd'
   let footer = '└––'
-  let after = `✨ itachi-bot-MD - Tu asistente anime favorito`
+  let after = `✨ Hayabusa-bot-MD - Tu asistente anime favorito`
 
   // 📊 Datos del usuario/bot
   let user = global.db.data.users[m.sender]
@@ -47,7 +47,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   let infoUser = `
 ʜᴏʟᴀ, ${nombre}
-ꜱᴏʏ BRAYAN NALGON, ʟɪꜱᴛᴏ ᴘᴀʀᴀ ᴀʏᴜᴅᴀʀᴛᴇ
+ꜱᴏʏ HAYABUS-MD, ʟɪꜱᴛᴏ ᴘᴀʀᴀ ᴀʏᴜᴅᴀʀᴛᴇ
 
 *乂 ɪɴꜰᴏ ᴅᴇʟ ᴜꜱᴜᴀʀɪᴏ*
 ┌  ◦ ᴇꜱᴛᴀᴅᴏ: ᴜꜱᴜᴀʀɪᴏ
@@ -104,7 +104,7 @@ END:VCARD`
     },
     message: {
       contactMessage: {
-        displayName: "𝗜 𝗧 𝗔 𝗖 𝗛 𝗜 - 𝗕 𝗢 𝗧",
+        displayName: "I T A C H I - 𝗕 𝗢 𝗧",
         vcard: vcard,
       },
     },
@@ -113,7 +113,7 @@ END:VCARD`
   // 📄 Envío estilo PDF con contacto falso
   await conn.sendMessage(m.chat, {
     document: fs.readFileSync('./package.json'),
-    fileName: '🌸 і𝗍ᥲᥴһі - ᑲ᥆𝗍 🌸',
+    fileName: '🥷🏻 hayabusa - ᑲ᥆𝗍 🥷🏻',
     mimetype: 'application/pdf',
     caption: finalMenu,
     contextInfo: {
