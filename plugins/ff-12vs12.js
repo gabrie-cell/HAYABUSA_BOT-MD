@@ -41,7 +41,7 @@ if (!args[0]) throw `
 ` 
 }
 handler.help = ['12vs12']
-handler.tags = ['freefire']
+handler.tags = ['ff']
 handler.command = /^(vs12|12vs12)$/i
 handler.group = true
 handler.admin = true
