@@ -136,6 +136,12 @@ let handler = async (m, { conn, usedPrefix }) => {
       })
     },
     {
+      })
+                display_text: "💻 qr",
+        id: `${usedPrefix}qr`
+      })
+    },
+    {
       name: "quick_reply",
       buttonParamsJson: JSON.stringify({
         display_text: "👤 Owner",
