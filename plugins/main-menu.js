@@ -99,28 +99,51 @@ let handler = async (m, { conn, usedPrefix }) => {
             imageMessage: media.imageMessage
           },
           nativeFlowMessage: {
-            buttons: [
-              {
-                name: "cta_url",
-                buttonParamsJson: JSON.stringify({
-                  display_text: "🍃 Canal Oficial",
-                  url: "https://whatsapp.com/channel/"
-                })
-              },
-              {
-                name: "quick_reply",
-                buttonParamsJson: JSON.stringify({ display_text: "💻 Code", id: `${usedPrefix}code` })
-              },
-              {
-                name: "quick_reply",
-                buttonParamsJson: JSON.stringify({ display_text: "🚀 Ping", id: `${usedPrefix}ping` })
-              },
-              {
-                name: "quick_reply",
-                buttonParamsJson: JSON.stringify({ display_text: "👤 Owner", id: `${usedPrefix}owner` })
-              }
-            ]
-          },
+  buttons: [
+    {
+      name: "cta_url",
+      buttonParamsJson: JSON.stringify({
+        display_text: "🍃 Canal Oficial",
+        url: "https://whatsapp.com/channel/"
+      })
+    },
+    {
+      name: "cta_url",
+      buttonParamsJson: JSON.stringify({
+        display_text: "📸 Instagram",
+        url: "https://www.instagram.com/its_ga3b?igsh=MTEwNGI0YjNqamV3dA=="
+      })
+    },
+    {
+      name: "cta_url",
+      buttonParamsJson: JSON.stringify({
+        display_text: "🎵 TikTok",
+        url: "https://www.tiktok.com/@gab_zz32?_r=1&_t=ZS-93NFDkvQqV2"
+      })
+    },
+    {
+      name: "quick_reply",
+      buttonParamsJson: JSON.stringify({
+        display_text: "💻 Code",
+        id: `${usedPrefix}code`
+      })
+    },
+    {
+      name: "quick_reply",
+      buttonParamsJson: JSON.stringify({
+        display_text: "🚀 Ping",
+        id: `${usedPrefix}ping`
+      })
+    },
+    {
+      name: "quick_reply",
+      buttonParamsJson: JSON.stringify({
+        display_text: "👤 Owner",
+        id: `${usedPrefix}owner`
+      })
+    }
+  ]
+},
           contextInfo: {
             mentionedJid: [m.sender],
             isForwarded: true,
