@@ -31,8 +31,8 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = "🥷 ঔHAYABUSA-MDᬊ᭄ 🥷"
-global.textbot = "hayabusa вσт ν1 • мα∂є ву Gabrie-ux.яν"
+global.botname = "🪴 ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤ 🪴"
+global.textbot = "Nagi вσт ν1 • мα∂є ву Gabrie-ux.яν"
 global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ★彡[༺★᭄ꦿ᭄ꦿɢαвяιє-υχ★᭄ꦿ᭄ꦿ]彡★"
 global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ Gabriel.ux"
 global.etiqueta = "✫.ƚԋҽ ƈαɾʅσʂ.ɾʋ  ⊹꙰ "
