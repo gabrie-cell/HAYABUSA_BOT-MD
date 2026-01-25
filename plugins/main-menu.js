@@ -27,7 +27,6 @@ let tags = {
   'rpg': '🌐 RPG 🥇',
   'rg': '🎑 REGISTRO 🎟️',
   'sticker': '💟 STICKER 🏷️',
-  'img': '🖼️ IMAGE 🎇',
   'group': '👥 GROUPS 📢',
   'nable': '🎛️ ON / OFF 🔌',
   'downloader': '📥 DOWNLOAD 📤',
