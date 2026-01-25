@@ -104,7 +104,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       name: "cta_url",
       buttonParamsJson: JSON.stringify({
         display_text: "🍃 Canal Oficial",
-        url: "https://whatsapp.com/channel/"
+        url: "https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q/"
       })
     },
     {
