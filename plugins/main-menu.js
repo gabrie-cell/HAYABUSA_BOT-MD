@@ -81,7 +81,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   }
 
   let finalMenu = infoUser + '\n\n' + menu.join('\n\n') + '\n' + after
-  let imagen = 'https://cdn.yupra.my.id/yp/8b6org82.jpg'
+  let imagen = 'https://files.catbox.moe/3z7wet.jpg'
 
   let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Itachi;;;\nFN:Itachi\nitem1.TEL;waid=13135550002:+1 (313) 555-0002\nitem1.X-ABLabel:Celular\nEND:VCARD`
   let qkontak = { key: { fromMe: false, participant: "0@s.whatsapp.net", remoteJid: "status@broadcast" }, message: { contactMessage: { displayName: "I T A C H I - 𝗕 𝗢 𝗧", vcard: vcard } } }
