@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args }) => {
 
 handler.help = ['ytv'];
 handler.command = ['ytv'];
-handler.tags = ['descargas'];
+handler.tags = ['downloader'];
 
 export default handler;
 
