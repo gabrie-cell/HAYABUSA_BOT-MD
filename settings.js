@@ -64,6 +64,18 @@ siputzx: { url: "https://api.siputzx.my.id", key: null }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
+global.APIs = Object.freeze({
+  may: 'https://mayapi.ooguy.com'
+})
+
+global.APIKeys = Object.freeze({
+  may: process.env.MAY_API_KEY ?? 'may-684934ab'
+})
+
+
+//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+
+
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
 unwatchFile(file)
