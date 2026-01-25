@@ -85,7 +85,7 @@ export async function before(m, { conn }) {
     mentions: [m.sender],
     contextInfo: {
       externalAdReply: {
-        title: 'ᬊ᭄ঔHAYABUSA-MDᬊ᭄',
+        title: 'ღNAGI-BOT༻๖ۣۜ◥ὦɧ◤',
         body: '© Powered by Gabrie-ux',
         thumbnailUrl: thumb,
         sourceUrl: 'https://instagram.com',
