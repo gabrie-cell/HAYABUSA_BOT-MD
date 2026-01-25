@@ -3,8 +3,7 @@ const { prepareWAMessageMedia, generateWAMessageFromContent } = (await import("@
 
 let handler = async (m, { conn, usedPrefix }) => {
   const delay = ms => new Promise(res => setTimeout(res, ms))
-  let taguser = '@' + m.sender.split('@')[0]
-
+  
   let tags = {
     'info': 'ᴍᴇɴᴜ ɪɴғᴏ',
     'anime': 'ᴍᴇɴᴜ ᴀɴɪᴍᴇ',
@@ -87,7 +86,8 @@ let handler = async (m, { conn, usedPrefix }) => {
   let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Itachi;;;\nFN:Itachi\nitem1.TEL;waid=13135550002:+1 (313) 555-0002\nitem1.X-ABLabel:Celular\nEND:VCARD`
   let qkontak = { key: { fromMe: false, participant: "0@s.whatsapp.net", remoteJid: "status@broadcast" }, message: { contactMessage: { displayName: "I T A C H I - 𝗕 𝗢 𝗧", vcard: vcard } } }
 
-  // Generación del mensaje con botones manteniendo el estilo de documento
+  let media = await prepareWAMessageMedia({ image: { url: imagen } }, { upload: conn.waUploadToServer })
+
   const msg = generateWAMessageFromContent(m.chat, {
     viewOnceMessage: {
       message: {
@@ -95,25 +95,8 @@ let handler = async (m, { conn, usedPrefix }) => {
           body: { text: finalMenu },
           footer: { text: "🥷🏻 hayabusa - ᑲ᥆𝗍 🥷🏻" },
           header: {
-            title: botname,
             hasMediaAttachment: true,
-            documentMessage: {
-              url: "https://mmg.whatsapp.net/v/t62.7118-24/31158862_758652462100516_5465228120365761030_n.enc",
-              mimetype: 'application/pdf',
-              fileName: '🥷🏻 hayabusa - ᑲ᥆𝗍 🥷🏻',
-              fileLength: 999999999999,
-              pageCount: 100,
-              contextInfo: {
-                externalAdReply: {
-                  showAdAttribution: true,
-                  title: botname,
-                  body: dev,
-                  thumbnailUrl: imagen,
-                  mediaType: 1,
-                  renderLargerThumbnail: true
-                }
-              }
-            }
+            imageMessage: media.imageMessage
           },
           nativeFlowMessage: {
             buttons: [
@@ -137,6 +120,11 @@ let handler = async (m, { conn, usedPrefix }) => {
                 buttonParamsJson: JSON.stringify({ display_text: "👤 Owner", id: `${usedPrefix}owner` })
               }
             ]
+          },
+          contextInfo: {
+            mentionedJid: [m.sender],
+            isForwarded: true,
+            forwardingScore: 999
           }
         }
       }
