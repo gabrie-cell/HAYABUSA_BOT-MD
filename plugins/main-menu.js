@@ -23,7 +23,6 @@ let Styles = (text, style = 1) => {
 let tags = {
   'anime': '🧧 ANIME 🎐',
   'main': '❗ INFO ❕',
-  'game': '🕹️ GAME 🎮',
   'serbot': '⚙️ SUB BOTS 🤖',
   'rpg': '🌐 RPG 🥇',
   'rg': '🎑 REGISTRO 🎟️',
@@ -37,10 +36,7 @@ let tags = {
   'fun': '🎉 FUN 🎊',
   'nsfw': '🔞 NSFW 📛', 
   'cmd': '🧮 DATABASE 🖥️',
-  'owner': '👤 OWNER 👁️', 
-  'audio': '📣 AUDIOS 🔊', 
-  'advanced': '🗝️ ADVANCED 📍',
-  'ff':  '🎮frefire 🎮',
+  'owner': '👤 OWNER 👁️',
 };
 
 const defaultMenu = {
