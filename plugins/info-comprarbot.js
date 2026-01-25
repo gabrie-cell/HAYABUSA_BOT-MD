@@ -12,7 +12,7 @@ global.ComprarBot = `
 https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q
 
   ᰰ᷒☃️᪤ ᥴrᥱᥲ֟፝ძ͟᥆r ::
-_wa.me//51941658 192_
+_wa.me//51941658192_
 
 ·˚ ༘₊· ͟͟͞͞꒰𝐌𝐄𝐓𝐎𝐃𝐎𝐒 𝐃 𝐏𝐀𝐆𝐎 🛍
 _- Mercado pago_
@@ -21,7 +21,7 @@ _- Pay pal_
 _- Diamantes_
 
 ·˚ ༘₊· ͟͟͞͞꒰𝐏𝐑𝐄𝐂𝐈𝐎𝐒 💸
-╰➳ \`sʜᴀᴅᴏᴡ - ʙᴏᴛ\`
+╰➳ \`Hayabusa - Bot\`
 ╭──• \`ᴘᴇsᴏs ᴀʀɢ\` 🇦🇷
 ╎ᜊ _1 Bot - 1500_
 ╎ᜊ _3 Bot - 2500_
