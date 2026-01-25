@@ -14,6 +14,7 @@ global.botNumber = "" //Ejemplo: 573218138672
 global.owner = [
 "51941658192",
 "5491162424280",
+"5714222810",
 ]
 
 global.suittag = ["51941658192"] 
@@ -63,18 +64,6 @@ siputzx: { url: "https://api.siputzx.my.id", key: null }
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
-global.APIs = Object.freeze({
-  may: 'https://mayapi.ooguy.com'
-})
-
-global.APIKeys = Object.freeze({
-  may: process.env.MAY_API_KEY ?? 'may-684934ab'
-})
-
-
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
