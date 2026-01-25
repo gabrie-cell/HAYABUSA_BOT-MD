@@ -1,8 +1,8 @@
 import axios from "axios"
 import yts from "yt-search"
 
-const API_BASE = (global.APIs?.may || "").replace(/\/+$/, "")
-const API_KEY  = global.APIKeys?.may || ""
+const API_BASE = "https://mayapi.ooguy.com"
+const API_KEY  = "may-684934ab"
 
 const handler = async (msg, { conn, args, usedPrefix, command }) => {
 
@@ -19,7 +19,6 @@ const handler = async (msg, { conn, args, usedPrefix, command }) => {
   })
 
   try {
-
     const search = await yts(query)
     if (!search?.videos?.length)
       throw new Error("No se encontraron resultados")
@@ -75,4 +74,5 @@ const handler = async (msg, { conn, args, usedPrefix, command }) => {
 handler.command = ["play2"]
 handler.help = ["𝖯𝗅𝖺𝗒2 <𝖳𝖾𝗑𝗍𝗈>"]
 handler.tags = ["𝖣𝖤𝖲𝖢𝖠𝖱𝖦𝖠𝖲"]
+
 export default handler
